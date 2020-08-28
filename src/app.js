@@ -5,7 +5,7 @@ import Col from "./components/col";
 import InputFilter from "./components/inputFilter";
 import EmployeeCard from "./components/employeeCard";
 import API from "./utils/API";
-import "./App.css";
+import "./app.css";
 
 
 //APP
