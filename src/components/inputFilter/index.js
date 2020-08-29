@@ -4,8 +4,10 @@ import "./style.css";
 
 function InputFilter(props) {
     return (
+        
         <form>
-            <div className = "form-group">
+            <div className="form-group">
+    
                 <label htmlFor = "search"></label>
                 <input
                     className="form-control"
