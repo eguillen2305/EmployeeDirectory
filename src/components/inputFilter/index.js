@@ -8,15 +8,17 @@ function InputFilter(props) {
             <div className = "form-group">
                 <label htmlFor = "search"></label>
                 <input
-                    className = "form-control"
+                    className="form-control"
+                    //handle InputChange ----------- ON CHANGE 
                     onChange = {props.handleInputChange}
                     name = "search"
-                    type = "text"
+                    type="text"
+                    placeholder = "Search First Name"
                     value = {props.vale}
-                    placeholder = "Search by Employee Name"
                     id = "search"
                 />
-                <button className = "btn btn-primary" onClick = {props.handleFormSubmission}>Search</button>
+                <br></br>
+                <button className="btn btn-info" onClick={props.handleFormSubmission}>Search</button>
                 <button className = "btn btn-primary" onClick = {props.refreshPage}>Reset</button>
                 <br />
             </div>

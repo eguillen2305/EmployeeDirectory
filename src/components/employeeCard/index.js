@@ -1,6 +1,9 @@
 //DEPENDENCIES
 import React from "react";
 
+
+//EmployeeCard displays information - Connecting to Axios to get 25 random profiles
+
 function EmployeeCard(props) {
     return (
         <thead>
