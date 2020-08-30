@@ -37,7 +37,6 @@ class App extends React.Component {
 	}
 
 	//EVENT HANDLERS
-	// merge and lowerCase search filter, check if searched employee exists, and update list with the filtered employee
 	searchName = (filter) => {
 		console.log('Search by name:', filter);
 		const filteredResult = this.state.employees.filter((employee) => {
@@ -101,12 +100,12 @@ class App extends React.Component {
 									email={item.email}
 									city={item.city}
 									key={item.key}
+									//DOB?
 								/>
 							))}
 						</table>
 					</Col>
 				</div>
-				{/* </div> */}
 			</Container>
 		);
 	}
