@@ -24,7 +24,6 @@ class App extends React.Component {
 						phone: employee.phone,
 						email: employee.email,
 						city: employee.location.city,
-
 						key: i
 					}))
 				});
