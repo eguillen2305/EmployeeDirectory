@@ -12,9 +12,11 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
+    "eslint": "^7.7.0",
+    "git-hooks": "^1.1.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^3.4.3",
     "serve": "^11.3.2"
   },
   "scripts": {
